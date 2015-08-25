@@ -1,3 +1,3 @@
 # visualon.github.io
 
-The VisualOn github pages.
+The VisualOn GitHub Pages.
