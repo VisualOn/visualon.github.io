@@ -10,7 +10,7 @@
   
   --background:  var(--white);
   
-  --bigtable-header-bg: var(--dark-grey);
+  --bigtable-header-bg: var(--light-grey);
   
   --panel-border-color: var(--light-grey);
   
@@ -18,6 +18,7 @@
   --neo2-color-accent-light: #B3D4FF;
 }
 
+/*
 .cbwf-modal >.cbwf-dialog.cbwf-stage-logs-dialog > .header {
    background-color: var(--neo2-color-primary);
 }
@@ -25,3 +26,4 @@
 .cbwf-stage-logs > .node-name {
   background-color: var(--neo2-color-accent-light);
 }
+*/
