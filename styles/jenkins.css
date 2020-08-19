@@ -1,1 +1,7 @@
 /* TODO: add styles */
+.cbwf-dialog {
+  background-color: #fcfcfc;
+}
+.cbwf-dialog > .cbwf-dialog {
+  background-color: #eeeeee;
+}
