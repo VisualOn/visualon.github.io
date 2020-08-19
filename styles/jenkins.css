@@ -1,5 +1,8 @@
 /* TODO: add styles */
 /* https://github.com/jenkinsci/jenkins/blob/0a2e2867db8eb3dc2849449977440fb652d00547/war/src/main/less/abstracts/theme.less */
+
+/* https://github.com/TobiX/jenkins-neo2-theme/blob/master/less/variables.less */
+
 :root {
   --white: #fff;
   --light-grey: #eaeff2;
@@ -10,4 +13,15 @@
   --bigtable-header-bg: var(--dark-grey);
   
   --panel-border-color: var(--light-grey);
+  
+  --neo2-color-primary: #0172BA;
+  --neo2-color-accent-light: #B3D4FF;
+}
+
+.cbwf-modal >.cbwf-dialog.cbwf-stage-logs-dialog > .header {
+   background-color: var(--neo2-color-primary);
+}
+
+.cbwf-stage-logs > .node-name {
+  background-color: var(--neo2-color-accent-light);
 }
