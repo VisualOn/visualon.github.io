@@ -1,4 +1,7 @@
 /* TODO: add styles */
+:root {
+  --background:  #fff
+}
 .cbwf-dialog {
   background-color: #fcfcfc;
 }
