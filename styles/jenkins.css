@@ -1,10 +1,13 @@
 /* TODO: add styles */
+/* https://github.com/jenkinsci/jenkins/blob/0a2e2867db8eb3dc2849449977440fb652d00547/war/src/main/less/abstracts/theme.less */
 :root {
-  --background:  #fff
-}
-.cbwf-dialog {
-  background-color: #fcfcfc;
-}
-.cbwf-dialog > .cbwf-dialog {
-  background-color: #eeeeee;
+  --white: #fff;
+  --light-grey: #eaeff2;
+  --dark-grey: #4d545d;
+  
+  --background:  var(--white);
+  
+  --bigtable-header-bg: var(--dark-grey);
+  
+  --panel-border-color: var(--light-grey);
 }
